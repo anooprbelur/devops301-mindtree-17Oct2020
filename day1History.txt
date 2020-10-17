@@ -1,0 +1,107 @@
+    1  git clone https://github.com/anooprbelur/devops301-mindtree-17Oct2020.git
+    2  cd devops301-mindtree-17Oct2020/ 
+    3  echo "Hello World"> Hello.txt
+    4  git status
+    5  git commit - m "New file - Hello.txt"
+    6  get commit - m "Hello.txt"
+    7  git lof
+    8  git log
+    9  git add
+   10  echo "Hello World" > NewFile.txt
+   11  git status
+   12  git add
+   13  Y
+   14  git add NewFile.txt
+   15  git add .
+   16  git config --global user.name "Anoop Ramesh"
+   17  git config --global user.email "Anoop.Ramesh@mindtree.com"
+   18  git config --list
+   19  git commit -m "Commiting after the config changes"
+   20  git log
+   21  git push
+   22  git status
+   23  ls -a
+   24  pwd
+   25  ls ltr
+   26  ls
+   27  exit
+   28  git status
+   29  cd/devops301-mindtree-17Oct2020
+   30  devops301-mindtree-17Oct2020
+   31  git status
+   32  git branch
+   33  clear
+   34  cd
+   35  devops301-mindtree-17Oct2020
+   36  cd devops301-mindtree-17Oct2020
+   37  git status
+   38  git branch
+   39  git branch Anoop1
+   40  git brnch
+   41  yes
+   42  cd devops301-mindtree-17Oct2020
+   43  git status
+   44  git branch
+   45  git checkout Anoop1
+   46  git branch
+   47  echo "TestData on Anoop1" > TestFile_Anoop.txt 
+   48  git status
+   49  git add. ; git commit "Adding TestAnoop1 file"
+   50  git add .
+   51  git commit - m "Adding TestAnoop1 file"
+   52  git commit -m "Adding TestAnoop1 file"
+   53  git push
+   54  git push --set-upstream origin Anoop1
+   55  git status
+   56  clear
+   57  git branch Anoop2
+   58  git checkout
+   59  git branch
+   60  git checkout Anoop2
+   61  echo "Adding TestFile_Anoop2" > TestFile.Anoop2.txt
+   62  git add .
+   63  git commit -m "Adding TestFile_Anoop2"
+   64  git push
+   65  git push --set-upstream origin Anoop2
+   66  git branch
+   67  clear
+   68  git config credential.helper store
+   69  git push
+   70  git config credential.helper store
+   71  git commit
+   72  git branch
+   73  git checkout main
+   74  git branch
+   75  git merge Anoop2
+   76  git commit
+   77  git add .
+   78  git commit -m "Merging Anoop1 & Anoop2 into Main"
+   79  git push
+   80  clear
+   81  git log
+   82  git graph
+   83  clear
+   84  git logs
+   85  git log
+   86  clear
+   87  git list
+   88  git config --list
+   89  clear
+   90  git branch
+   91  clear
+   92  git hint
+   93  git init
+   94  git status
+   95  git branch
+   96  history
+   97  lr
+   98  ls
+   99  clear
+  100  exit
+  101  cd
+  102  cd devops301-mindtree-17Oct2020
+  103  git branch
+  104  git log --online --graph
+  105  git log --oneline --graph
+  106  history
+  107  history > day1History.txt
